@@ -1,10 +1,14 @@
-
-
-body {
-    background-color: black;
-    color: white;
-
+.borderRight {
+    border-right: 5px rgb(97, 91, 91);
+    border-right-style: ridge;
 }
+
+.borderTop {
+    border-top: 5px rgb(97, 91, 91);
+    border-top-style: ridge;
+}
+
+
 
 
 /* Styling the header and navbar */
@@ -23,17 +27,14 @@ header h1 {
     font-weight: 700;
 }
 
-.navbar {
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
+
+#customNav {
+    border-bottom: 5px black;
+    border-bottom-style: double;
+    font-size: 175%;
+    font-weight: 900;
 
 }
-.navbar li a {
-    padding: 5px;
-    border:1px grey;
-}
-
 
 /* Styling the about section */
 
@@ -41,21 +42,13 @@ header h1 {
     font-size: 110%;
 }
 
-.aboutpic {
-    display: flex;
-    justify-content: space-between;
-    height: 250px;
-    border: 5px solid grey;
-    padding: 5px;
-    
 
+
+.customBtn {
+    margin-top: 20px;
+    margin-left: 20px;
 }
-.biopic {
-    display: flex;
-    padding-left: 5%;
 
-
-}
 
 /* Styling the Main content section. */
 
@@ -72,6 +65,11 @@ h3{
     
 
     
+}
+
+#customAside {
+    border-right: 5px black;
+    border-right-style: double;
 }
 
 .test {
@@ -105,48 +103,8 @@ h3{
     width: 100%;
 }
 
-.workcards .mainwork a {
-    display: flex;
-}
 
-.workcards .mainwork a img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
 
-.comingsoon {
-    display: flex;
-    position: relative;
-    border: 5px solid grey;
-    height: 35%;
-    width: 30%
-}
-
-.comingsoon h3 {
-    position: absolute;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
-    margin-top: 30px;
-    margin-left: 30px;
-}
-
-.comingsoon img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    
-
-}
-
-.popover {
-    position: absolute;
-    display: flex;
-    margin-top: 30px;
-    margin-left: 30px;
-    flex-direction: column;
-    justify-content: flex-end;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
-}
 
 
 /* Styling the footer  */
@@ -157,7 +115,6 @@ h3{
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    border: 5px solid grey;
     padding: 5px;
 }
 .contactinfo ul {

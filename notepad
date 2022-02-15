@@ -1,0 +1,62 @@
+<header>
+
+        <h1>Nathan Russell</h1>
+            <nav class="navbar ">
+                <ul>
+                    <li> <a href="#About">About Me</a> </li>
+                    <li> <a href="#work">Work</a> </li>
+                    <li> <a href="#contact">Contact Info</a> </li>
+                </ul>
+            </nav>
+
+    </header>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    <section >
+        <div class="aboutpic">
+            <p id="About">I am an aspiring web devloper currently taking part in the Ohio State University's coding bootcamp. I want to become a developer because I see it as the perfect synergy between technology and design. The internet and it's associated applications have opened up the world to new forms of enligtenment, entertainment, and general well-being. This website is my first forray into becoming a part of that lineage.
+                    "sic parvis magna" </p>
+                <img class="biopic" src="./images/Intro Pic.PNG" alt="a picture of me">
+                
+        </div>
+    </section>
+
+    <div class="maincontent">
+
+        <figure id="work">
+            <h2>Work</h2>
+        </figure>
+    
+
+    <div class="test">
+
+        <div class="workcards">
+            <figure class="mainwork">
+                <h3 class ="popover">Horiseon HTML Refactor</h3>
+                <a href="https://nathanrusselldev.github.io/SEO-Refactor-HTML-Horizon/"><img src="./images/Website Example.png" alt="An example picture of the Horiseon website."></a>
+            </figure>
+    
+            <figure class="comingsoon">
+                <h3>Coming Soon!</h3>
+                <img class="underconstruction" src="images/under-construction-g9f45be212_640.jpg" alt="An image stating Under Contruction.">
+            </figure>
+
+            <figure class="comingsoon">
+                <img class="underconstruction" src="images/under-construction-g9f45be212_640.jpg" alt="An image stating Under Contruction.">
+                <h3>Coming Soon!</h3>
+            </figure>
+
+            <figure class="comingsoon">
+                <img class="underconstruction" src="images/under-construction-g9f45be212_640.jpg" alt="An image stating Under Contruction.">
+                <h3>Coming Soon!</h3>
+            </figure>
+        </div>
+
+        
+    </div>
