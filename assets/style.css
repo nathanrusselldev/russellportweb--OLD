@@ -38,8 +38,9 @@ header h1 {
 
 /* Styling the about section */
 
-#about {
+#customAbout {
     font-size: 110%;
+    height: auto;
 }
 
 
